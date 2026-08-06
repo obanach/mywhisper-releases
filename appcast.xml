@@ -7,6 +7,37 @@
         <language>pl</language>
         <!-- items -->
         <item>
+            <title>MyWhisper 0.6</title>
+            <pubDate>Thu, 06 Aug 2026 12:27:43 +0000</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>0.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; font-size: 13px; line-height: 1.5;
+         margin: 14px 16px; word-wrap: break-word; overflow-wrap: break-word; }
+  h1, h2 { font-size: 15px; font-weight: 600; margin: 0 0 8px; }
+  ul { padding-left: 18px; margin: 6px 0; }
+  li { margin-bottom: 7px; }
+  p { margin: 7px 0; }
+  hr { border: none; border-top: 1px solid rgba(128,128,128,.35); margin: 12px 0; }
+  code { font-family: ui-monospace, Menlo, monospace; font-size: 11.5px;
+         background: rgba(128,128,128,.16); padding: 1px 5px; border-radius: 4px; }
+  @media (prefers-color-scheme: dark) { body { color: #ddd; } }
+</style>
+<h2>Nowości</h2>
+<ul>
+<li><b>Schowek zostaje w spokoju</b> — dyktowany tekst jest teraz wpisywany bezpośrednio w miejsce kursora, bez przechodzenia przez schowek. Skopiowane wcześniej zdjęcie czy tekst nie zostaną już nigdy nadpisane przez transkrypcję.</li>
+<li><b>Twój kolor fali nagrywania</b> — w Ustawienia → Dyktowanie wybierzesz kolor fali; dostaje ładny gradient i delikatną poświatę, w dymku i w trybie notch. Przycisk „Domyślny" wraca do czerni/bieli wg motywu.</li>
+<li><b>Czytelniejszy opis zmian</b> — okno aktualizacji ma teraz porządną typografię i poprawne łamanie tekstu (to, co właśnie czytasz).</li>
+</ul>
+<hr>
+<p><b>Pierwsza instalacja i macOS blokuje aplikację?</b> Aplikacja nie ma certyfikatu Apple — obejście: Ustawienia systemowe → Prywatność i ochrona → „Otwórz mimo to", albo w Terminalu: <code>xattr -d com.apple.quarantine /Applications/MyWhisper.app</code>. Szczegóły w INSTALACJA.md.</p>
+<p><b>Po aktualizacji pyta o hasło do pęku kluczy (klucz API)?</b> Kliknij <b>„Zawsze zezwalaj"</b> — pytanie nie wróci przy kolejnych aktualizacjach.</p>
+            ]]></description>
+            <enclosure url="https://github.com/obanach/mywhisper-releases/releases/download/v0.6/MyWhisper-0.6.zip" sparkle:edSignature="/5RzFvOaNRYdMG0pqAdHc/BXigByG2OKg0UbHi1DIbJ+G4srYjzVNfwiyWJrZyD7Rc6xGVQaILgQ3T/JdFqvCQ==" length="2668364" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>MyWhisper 0.5.2</title>
             <pubDate>Thu, 06 Aug 2026 12:14:10 +0000</pubDate>
             <sparkle:version>14</sparkle:version>
