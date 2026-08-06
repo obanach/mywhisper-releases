@@ -7,6 +7,24 @@
         <language>pl</language>
         <!-- items -->
         <item>
+            <title>MyWhisper 0.5.2</title>
+            <pubDate>Thu, 06 Aug 2026 12:14:10 +0000</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>0.5.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>Nowości</h2>
+<ul>
+<li><b>Dymek nagrywania dopasowuje się do motywu</b> — na jasnym motywie wave i przyciski są ciemne, na ciemnym białe. Koniec z niewidocznym wskaźnikiem na jasnym tle.</li>
+<li><b>Opis zmian w oknie aktualizacji</b> — od tej wersji przy propozycji aktualizacji zobaczysz dokładnie, co się zmieniło (tak jak ten tekst).</li>
+</ul>
+<hr>
+<p><b>Pierwsza instalacja i macOS blokuje aplikację?</b> Aplikacja nie ma certyfikatu Apple — obejście: Ustawienia systemowe → Prywatność i ochrona → „Otwórz mimo to", albo w Terminalu: `xattr -d com.apple.quarantine /Applications/MyWhisper.app`. Szczegóły w INSTALACJA.md.</p>
+<p><b>Po aktualizacji pyta o hasło do pęku kluczy (klucz API)?</b> Kliknij <b>„Zawsze zezwalaj"</b> — pytanie nie wróci przy kolejnych aktualizacjach.</p>
+            ]]></description>
+            <enclosure url="https://github.com/obanach/mywhisper-releases/releases/download/v0.5.2/MyWhisper-0.5.2.zip" sparkle:edSignature="cWnbyR5xlbZ1QPDPerz9HGSdsb5TS6XeyR4VUeTFzPxVyhsXrBj78xzAcqBccINLqNUc3Xuun42nhEwVlopkDw==" length="2661317" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>MyWhisper 0.5.1</title>
             <pubDate>Thu, 06 Aug 2026 12:05:36 +0000</pubDate>
             <sparkle:version>13</sparkle:version>
