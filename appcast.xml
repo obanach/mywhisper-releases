@@ -6,5 +6,13 @@
         <description>Kanał aktualizacji MyWhisper (Sparkle)</description>
         <language>pl</language>
         <!-- items -->
+        <item>
+            <title>MyWhisper 0.5</title>
+            <pubDate>Thu, 06 Aug 2026 11:59:13 +0000</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/obanach/mywhisper-releases/releases/download/v0.5/MyWhisper-0.5.zip" sparkle:edSignature="j0nnl8xrxAQ8tOR1GF54NASBnNA+2o9ZtALpf9/Cisyv6n2hLvc5BYs83u+XV+Zn1isfXUuu6AyER0uoxEXmBg==" length="2654962" type="application/octet-stream"/>
+        </item>
     </channel>
 </rss>
