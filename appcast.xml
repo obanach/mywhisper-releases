@@ -7,6 +7,35 @@
         <language>pl</language>
         <!-- items -->
         <item>
+            <title>MyWhisper 0.7.1</title>
+            <pubDate>Thu, 06 Aug 2026 13:00:14 +0000</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; font-size: 13px; line-height: 1.5;
+         margin: 14px 16px; word-wrap: break-word; overflow-wrap: break-word; }
+  h1, h2 { font-size: 15px; font-weight: 600; margin: 0 0 8px; }
+  ul { padding-left: 18px; margin: 6px 0; }
+  li { margin-bottom: 7px; }
+  p { margin: 7px 0; }
+  hr { border: none; border-top: 1px solid rgba(128,128,128,.35); margin: 12px 0; }
+  code { font-family: ui-monospace, Menlo, monospace; font-size: 11.5px;
+         background: rgba(128,128,128,.16); padding: 1px 5px; border-radius: 4px; }
+  @media (prefers-color-scheme: dark) { body { color: #ddd; } }
+</style>
+<h2>Nowości</h2>
+<ul>
+<li><b>Płynniejsze Power colors</b> — animacja fali działa teraz w 60 klatkach na sekundę.</li>
+</ul>
+<hr>
+<p><b>Pierwsza instalacja i macOS blokuje aplikację?</b> Aplikacja nie ma certyfikatu Apple — obejście: Ustawienia systemowe → Prywatność i ochrona → „Otwórz mimo to", albo w Terminalu: <code>xattr -d com.apple.quarantine /Applications/MyWhisper.app</code>. Szczegóły w INSTALACJA.md.</p>
+<p><b>Po aktualizacji pyta o hasło do pęku kluczy (klucz API)?</b> Kliknij <b>„Zawsze zezwalaj"</b> — pytanie nie wróci przy kolejnych aktualizacjach.</p>
+            ]]></description>
+            <enclosure url="https://github.com/obanach/mywhisper-releases/releases/download/v0.7.1/MyWhisper-0.7.1.zip" sparkle:edSignature="vY9KH8shkm6ZmCF9nN2Y+bOU9KDv6DPzFT9zoT2oRaR4O4Lr6/yb/fEOMdNsp8jvHCYHj0TyuNpDHEnRWJW5CA==" length="2734875" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>MyWhisper 0.7</title>
             <pubDate>Thu, 06 Aug 2026 12:58:39 +0000</pubDate>
             <sparkle:version>16</sparkle:version>
