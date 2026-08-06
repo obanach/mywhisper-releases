@@ -7,6 +7,36 @@
         <language>pl</language>
         <!-- items -->
         <item>
+            <title>MyWhisper 0.8</title>
+            <pubDate>Thu, 06 Aug 2026 15:12:37 +0000</pubDate>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>0.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; font-size: 13px; line-height: 1.5;
+         margin: 14px 16px; word-wrap: break-word; overflow-wrap: break-word; }
+  h1, h2 { font-size: 15px; font-weight: 600; margin: 0 0 8px; }
+  ul { padding-left: 18px; margin: 6px 0; }
+  li { margin-bottom: 7px; }
+  p { margin: 7px 0; }
+  hr { border: none; border-top: 1px solid rgba(128,128,128,.35); margin: 12px 0; }
+  code { font-family: ui-monospace, Menlo, monospace; font-size: 11.5px;
+         background: rgba(128,128,128,.16); padding: 1px 5px; border-radius: 4px; }
+  @media (prefers-color-scheme: dark) { body { color: #ddd; } }
+</style>
+<h2>Nowości</h2>
+<ul>
+<li><b>Rozmiar dymka pod Twoją kontrolą</b> — w Ustawieniach → Dyktowanie jest nowy suwak (jak rozmiar Docka w macOS): od 50% do 200% normalnej wielkości. Wszystko skaluje się razem — fala, przyciski, napisy — i pozostaje ostre nawet przy maksymalnym powiększeniu.</li>
+<li><b>Podgląd na żywo</b> — gdy przeciągasz suwak, dymek pokazuje się na ekranie w wybranym rozmiarze, z animowaną falą. Widzisz dokładnie to, co ustawiasz — zero zgadywania.</li>
+</ul>
+<hr>
+<p><b>Pierwsza instalacja i macOS blokuje aplikację?</b> Aplikacja nie ma certyfikatu Apple — obejście: Ustawienia systemowe → Prywatność i ochrona → „Otwórz mimo to", albo w Terminalu: <code>xattr -d com.apple.quarantine /Applications/MyWhisper.app</code>. Szczegóły w INSTALACJA.md.</p>
+<p><b>Po aktualizacji pyta o hasło do pęku kluczy (klucz API)?</b> Kliknij <b>„Zawsze zezwalaj"</b> — pytanie nie wróci przy kolejnych aktualizacjach.</p>
+            ]]></description>
+            <enclosure url="https://github.com/obanach/mywhisper-releases/releases/download/v0.8/MyWhisper-0.8.zip" sparkle:edSignature="Rkw6KXlkUO4ffvFrBEfK/Dn++UmHFo6y1MwGkl7taxoiK6c4T2OqU42Ke7qIdMzJrTJtr2FJtRGVUF/Evt9ADg==" length="2782431" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>MyWhisper 0.7.4</title>
             <pubDate>Thu, 06 Aug 2026 13:51:24 +0000</pubDate>
             <sparkle:version>20</sparkle:version>
