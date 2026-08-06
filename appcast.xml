@@ -7,6 +7,36 @@
         <language>pl</language>
         <!-- items -->
         <item>
+            <title>MyWhisper 0.7.4</title>
+            <pubDate>Thu, 06 Aug 2026 13:51:24 +0000</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>0.7.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; font-size: 13px; line-height: 1.5;
+         margin: 14px 16px; word-wrap: break-word; overflow-wrap: break-word; }
+  h1, h2 { font-size: 15px; font-weight: 600; margin: 0 0 8px; }
+  ul { padding-left: 18px; margin: 6px 0; }
+  li { margin-bottom: 7px; }
+  p { margin: 7px 0; }
+  hr { border: none; border-top: 1px solid rgba(128,128,128,.35); margin: 12px 0; }
+  code { font-family: ui-monospace, Menlo, monospace; font-size: 11.5px;
+         background: rgba(128,128,128,.16); padding: 1px 5px; border-radius: 4px; }
+  @media (prefers-color-scheme: dark) { body { color: #ddd; } }
+</style>
+<h2>Nowości</h2>
+<ul>
+<li><b>Uporządkowane skróty klawiszowe</b> — wszystkie trzy skróty (dyktowanie, anulowanie, pauza) są teraz w jednej sekcji ustawień, z takimi samymi przyciskami „Ustaw" i „Wyczyść".</li>
+<li><b>Ochrona przed duplikatami</b> — nie da się już przypisać jednego klawisza do dwóch funkcji: przy próbie dostaniesz ostrzeżenie, który skrót go zajmuje. Nowy skrót nigdy nie nadpisuje starego.</li>
+</ul>
+<hr>
+<p><b>Pierwsza instalacja i macOS blokuje aplikację?</b> Aplikacja nie ma certyfikatu Apple — obejście: Ustawienia systemowe → Prywatność i ochrona → „Otwórz mimo to", albo w Terminalu: <code>xattr -d com.apple.quarantine /Applications/MyWhisper.app</code>. Szczegóły w INSTALACJA.md.</p>
+<p><b>Po aktualizacji pyta o hasło do pęku kluczy (klucz API)?</b> Kliknij <b>„Zawsze zezwalaj"</b> — pytanie nie wróci przy kolejnych aktualizacjach.</p>
+            ]]></description>
+            <enclosure url="https://github.com/obanach/mywhisper-releases/releases/download/v0.7.4/MyWhisper-0.7.4.zip" sparkle:edSignature="vDG1kDhqPgOpLKrlhzhKxKKdhcdlIjYG11q4fFatytGYa9w7gCrHbIa5JdnyAUv/gCkzXfoRWxkcTitU1t8oDA==" length="2753327" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>MyWhisper 0.7.3</title>
             <pubDate>Thu, 06 Aug 2026 13:23:17 +0000</pubDate>
             <sparkle:version>19</sparkle:version>
