@@ -7,6 +7,14 @@
         <language>pl</language>
         <!-- items -->
         <item>
+            <title>MyWhisper 0.5.1</title>
+            <pubDate>Thu, 06 Aug 2026 12:05:36 +0000</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/obanach/mywhisper-releases/releases/download/v0.5.1/MyWhisper-0.5.1.zip" sparkle:edSignature="EQQZ0yYimgF4Bt6T4873sAIAvB+DlyVM4msNFHwSthLF3WXjEbxZwIxseNfNhIK3Zbly/bk4z8qrRCynwKQ1Aw==" length="2659538" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>MyWhisper 0.5</title>
             <pubDate>Thu, 06 Aug 2026 11:59:13 +0000</pubDate>
             <sparkle:version>12</sparkle:version>
