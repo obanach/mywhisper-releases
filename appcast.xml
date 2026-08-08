@@ -7,6 +7,41 @@
         <language>pl</language>
         <!-- items -->
         <item>
+            <title>MyWhisper 0.9</title>
+            <pubDate>Sat, 08 Aug 2026 12:51:58 +0000</pubDate>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>0.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; font-size: 13px; line-height: 1.5;
+         margin: 14px 16px; word-wrap: break-word; overflow-wrap: break-word; }
+  h1, h2 { font-size: 15px; font-weight: 600; margin: 0 0 8px; }
+  ul { padding-left: 18px; margin: 6px 0; }
+  li { margin-bottom: 7px; }
+  p { margin: 7px 0; }
+  hr { border: none; border-top: 1px solid rgba(128,128,128,.35); margin: 12px 0; }
+  code { font-family: ui-monospace, Menlo, monospace; font-size: 11.5px;
+         background: rgba(128,128,128,.16); padding: 1px 5px; border-radius: 4px; }
+  @media (prefers-color-scheme: dark) { body { color: #ddd; } }
+</style>
+<h2>Nowości</h2>
+<ul>
+<li><b>Drugi silnik transkrypcji — OpenAI GPT Transcribe</b> — w pasku narzędzi wybierasz teraz, który model ma pisać: ElevenLabs Scribe v2 (jak dotąd) albo nowy GPT Transcribe od OpenAI. Wybór zapamiętuje się między uruchomieniami.</li>
+<li><b>Nowa sekcja Ustawień „Dostawcy AI"</b> — klucze do ElevenLabs i OpenAI mają własne miejsce, każdy z przyciskiem sprawdzenia połączenia. Klucz ElevenLabs zostaje tam, gdzie był — nic nie trzeba wpisywać ponownie.</li>
+<li><b>Widać, który model zrobił transkrypcję</b> — na karcie dyktowania, obok daty, pojawiło się logo dostawcy i nazwa modelu. Starsze nagrania zostały opisane jako Scribe v2.</li>
+<li><b>Czytelniejszy pasek narzędzi</b> — zamiast samych ikonek widać teraz nazwę wybranego modelu i języka.</li>
+<li><b>Puste nagrania nie zaśmiecają historii</b> — jeśli nic nie zostało wychwycone, dostajesz powiadomienie zamiast pustego wpisu na liście.</li>
+<li><b>Podświetlanie słów tylko tam, gdzie działa</b> — GPT Transcribe nie zwraca znaczników czasu, więc karaoke jest dla niego niedostępne; karta mówi o tym wprost i podpowiada, jak je odzyskać.</li>
+<li><b>Wyraźniejsze komunikaty błędów</b> — wiadomo, którego dostawcy dotyczy problem, a przy błędnym kluczu apka od razu odsyła do Ustawień.</li>
+</ul>
+<hr>
+<p><b>Pierwsza instalacja i macOS blokuje aplikację?</b> Aplikacja nie ma certyfikatu Apple — obejście: Ustawienia systemowe → Prywatność i ochrona → „Otwórz mimo to", albo w Terminalu: <code>xattr -d com.apple.quarantine /Applications/MyWhisper.app</code>. Szczegóły w INSTALACJA.md.</p>
+<p><b>Po aktualizacji pyta o hasło do pęku kluczy (klucz API)?</b> Kliknij <b>„Zawsze zezwalaj"</b> — pytanie nie wróci przy kolejnych aktualizacjach.</p>
+            ]]></description>
+            <enclosure url="https://github.com/obanach/mywhisper-releases/releases/download/v0.9/MyWhisper-0.9.zip" sparkle:edSignature="tKk0TpK+Jq+ZvXxKO7MhCifBoI0y3/BNZtNFbg21fBkKhL9tSkYSyCE9HKDESCr43EjQI/WL/l6HHDU1tcogDg==" length="2908635" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>MyWhisper 0.8.2</title>
             <pubDate>Fri, 07 Aug 2026 21:36:15 +0000</pubDate>
             <sparkle:version>23</sparkle:version>
