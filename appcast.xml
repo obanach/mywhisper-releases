@@ -7,6 +7,42 @@
         <language>pl</language>
         <!-- items -->
         <item>
+            <title>MyWhisper 0.10</title>
+            <pubDate>Thu, 13 Aug 2026 09:37:57 +0000</pubDate>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>0.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; font-size: 13px; line-height: 1.5;
+         margin: 14px 16px; word-wrap: break-word; overflow-wrap: break-word; }
+  h1, h2 { font-size: 15px; font-weight: 600; margin: 0 0 8px; }
+  ul { padding-left: 18px; margin: 6px 0; }
+  li { margin-bottom: 7px; }
+  p { margin: 7px 0; }
+  hr { border: none; border-top: 1px solid rgba(128,128,128,.35); margin: 12px 0; }
+  code { font-family: ui-monospace, Menlo, monospace; font-size: 11.5px;
+         background: rgba(128,128,128,.16); padding: 1px 5px; border-radius: 4px; }
+  @media (prefers-color-scheme: dark) { body { color: #ddd; } }
+</style>
+<h2>Nowości</h2>
+<ul>
+<li><b>Nowa ikona aplikacji</b> — świeży znak w stylu Liquid Glass, od razu widoczny w Docku i w pasku menu.</li>
+<li><b>Ustawienia w osobnym oknie</b> — jak w Ustawieniach systemowych macOS: pasek boczny z sekcjami Ogólne / Dyktowanie / Dostawcy AI, strzałki wstecz/dalej i okno, które zawsze otwiera się w tym samym, porządnym rozmiarze.</li>
+<li><b>Prostsze skróty klawiszowe</b> — kliknij skrót, żeby nagrać nowy; małe „×" po najechaniu czyści go. Koniec z rzędami przycisków.</li>
+<li><b>Dostawcy AI po nowemu</b> — klucz API zapisujesz jednym krokiem (aplikacja od razu sama sprawdza, czy działa), a ikoną odświeżenia obok statusu możesz w każdej chwili sprawdzić go ponownie. Dodaliśmy też linki „Skąd wziąć klucz?".</li>
+<li><b>Wyspa przy notchu z prawdziwą animacją</b> — wskaźnik nagrywania rozrasta się z notcha jak Dynamic Island na iPhonie i chowa się z powrotem bez śladu. Na zewnętrznym monitorze bez notcha wypływa z samej górnej krawędzi ekranu.</li>
+<li><b>Płynniejsze animacje</b> — podgląd rozmiaru dymka i tęczowa fala działają teraz w pełnej płynności ekranu (na ProMotion do 120 Hz), a suwak rozmiaru ma wygodne skoki co 10% z podziałką.</li>
+<li><b>Dymek: przeciąganie z Shiftem</b> — przytrzymaj ⇧ podczas przeciągania, a dymek przyklei się równo do środka ekranu, bez skakania.</li>
+<li><b>Porządki</b> — aplikacja ma zawsze jedno okno główne i jedno okno Ustawień (nie da się już przypadkiem namnożyć duplikatów), a opisy w Ustawieniach są krótsze i bardziej konkretne.</li>
+</ul>
+<hr>
+<p><b>Pierwsza instalacja i macOS blokuje aplikację?</b> Aplikacja nie ma certyfikatu Apple — obejście: Ustawienia systemowe → Prywatność i ochrona → „Otwórz mimo to", albo w Terminalu: <code>xattr -d com.apple.quarantine /Applications/MyWhisper.app</code>. Szczegóły w INSTALACJA.md.</p>
+<p><b>Po aktualizacji pyta o hasło do pęku kluczy (klucz API)?</b> Kliknij <b>„Zawsze zezwalaj"</b> — pytanie nie wróci przy kolejnych aktualizacjach.</p>
+            ]]></description>
+            <enclosure url="https://github.com/obanach/mywhisper-releases/releases/download/v0.10/MyWhisper-0.10.zip" sparkle:edSignature="ReZtUwcNskjotOzk2o6jM0Ppe5P2ceCBUH8be8BrWMXiVt/IPSYTvNWZ67adKu/UVONRHUOAoZbF53uFGe6lDA==" length="5895832" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>MyWhisper 0.9</title>
             <pubDate>Sat, 08 Aug 2026 12:51:58 +0000</pubDate>
             <sparkle:version>24</sparkle:version>
