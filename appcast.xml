@@ -7,6 +7,41 @@
         <language>pl</language>
         <!-- items -->
         <item>
+            <title>MyWhisper 0.11</title>
+            <pubDate>Tue, 22 Sep 2026 18:00:56 +0000</pubDate>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>0.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; font-size: 13px; line-height: 1.5;
+         margin: 14px 16px; word-wrap: break-word; overflow-wrap: break-word; }
+  h1, h2 { font-size: 15px; font-weight: 600; margin: 0 0 8px; }
+  ul { padding-left: 18px; margin: 6px 0; }
+  li { margin-bottom: 7px; }
+  p { margin: 7px 0; }
+  hr { border: none; border-top: 1px solid rgba(128,128,128,.35); margin: 12px 0; }
+  code { font-family: ui-monospace, Menlo, monospace; font-size: 11.5px;
+         background: rgba(128,128,128,.16); padding: 1px 5px; border-radius: 4px; }
+  @media (prefers-color-scheme: dark) { body { color: #ddd; } }
+</style>
+<h2>Nowości</h2>
+<ul>
+<li><b>Nagrywanie spotkań</b> — w pasku menu jest „Nagraj spotkanie”. Nagrywa Twój mikrofon i dźwięk z Maca (Google Meet, Slack, cokolwiek gra), a po zakończeniu robi transkrypcję z podziałem na mówców. Przy pierwszym użyciu macOS zapyta o zgodę na nagrywanie dźwięku systemu — kliknij „Zezwól”.</li>
+<li><b>Trzy źródła nagrania</b> — „Mikrofon i dźwięk Maca” na spotkania online, „Tylko mikrofon” na spotkania w biurze, „Tylko dźwięk Maca” na to, co oglądasz. Ostatni wybór jest zapamiętywany.</li>
+<li><b>Zakładka Nagrania</b> — w oknie głównym obok Dyktowań. Lista nagrań, a po wejściu w nagranie: odtwarzacz, transkrypcja rozpisana na mówców ze znacznikami czasu, zmiana nazw mówców, scalanie mówców, oznaczenie „To ja” (przycisk „Zgadnij, kto to ja” sam zaproponuje, który głos jest Twój).</li>
+<li><b>Eksport transkrypcji</b> — Markdown, tekst, SRT albo JSON, do tego kopiowanie i „Pokaż w Finderze”.</li>
+<li><b>Wklejanie na raz</b> — podyktowany tekst wkleja się w całości jednym ruchem, zamiast wpisywać się litera po literze. Działa w terminalach i aplikacjach webowych, które wcześniej gubiły tekst. Schowek jest używany tylko przez chwilę i zaraz przywracany. Jeśli wolisz stary sposób, jest przełącznik w Ustawieniach → Dyktowanie → „Sposób wstawiania tekstu”.</li>
+<li><b>Lepiej na słabym internecie</b> — gdy transkrypcja nie dojdzie z powodu chwilowej utraty łącza albo przeciążenia serwera, aplikacja sama ponawia próbę (do trzech razy) i pokazuje to w pasku menu. Dłuższe nagrania mają więcej czasu na odpowiedź, a wysyłany plik jest cztery razy mniejszy niż dotąd.</li>
+<li><b>Bez otwierania plików</b> — transkrypcja spotkania nie otwiera już pliku w zewnętrznej aplikacji; wszystko jest w zakładce Nagrania.</li>
+</ul>
+<hr>
+<p><b>Pierwsza instalacja i macOS blokuje aplikację?</b> Aplikacja nie ma certyfikatu Apple — obejście: Ustawienia systemowe → Prywatność i ochrona → „Otwórz mimo to", albo w Terminalu: <code>xattr -d com.apple.quarantine /Applications/MyWhisper.app</code>. Szczegóły w INSTALACJA.md.</p>
+<p><b>Po aktualizacji pyta o hasło do pęku kluczy (klucz API)?</b> Kliknij <b>„Zawsze zezwalaj"</b> — pytanie nie wróci przy kolejnych aktualizacjach.</p>
+            ]]></description>
+            <enclosure url="https://github.com/obanach/mywhisper-releases/releases/download/v0.11/MyWhisper-0.11.zip" sparkle:edSignature="cdY5ZrljXODCkFtDFD6i7rdgpgWJfmM81mhmRc6IamlWODOrXFoY6bR45Cx2yPwwsecbFxDDYCOD6Vp/zC18DA==" length="6646969" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>MyWhisper 0.10</title>
             <pubDate>Thu, 13 Aug 2026 09:37:57 +0000</pubDate>
             <sparkle:version>25</sparkle:version>
