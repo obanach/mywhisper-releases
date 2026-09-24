@@ -7,6 +7,39 @@
         <language>pl</language>
         <!-- items -->
         <item>
+            <title>MyWhisper 0.12</title>
+            <pubDate>Thu, 24 Sep 2026 19:15:04 +0000</pubDate>
+            <sparkle:version>27</sparkle:version>
+            <sparkle:shortVersionString>0.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; font-size: 13px; line-height: 1.5;
+         margin: 14px 16px; word-wrap: break-word; overflow-wrap: break-word; }
+  h1, h2 { font-size: 15px; font-weight: 600; margin: 0 0 8px; }
+  ul { padding-left: 18px; margin: 6px 0; }
+  li { margin-bottom: 7px; }
+  p { margin: 7px 0; }
+  hr { border: none; border-top: 1px solid rgba(128,128,128,.35); margin: 12px 0; }
+  code { font-family: ui-monospace, Menlo, monospace; font-size: 11.5px;
+         background: rgba(128,128,128,.16); padding: 1px 5px; border-radius: 4px; }
+  @media (prefers-color-scheme: dark) { body { color: #ddd; } }
+</style>
+<h2>Nowości</h2>
+<ul>
+<li><b>Import nagrania z pliku</b> — w zakładce Nagrania jest „Importuj…”, a plik audio można też po prostu przeciągnąć na listę (m4a, mp3, wav, aiff, caf, flac). Plik jest kopiowany do folderu nagrań, a potem robiona jest transkrypcja z podziałem na mówców, dokładnie jak po własnym nagraniu. Twój oryginalny plik zostaje na miejscu.</li>
+<li><b>Enter po wklejeniu</b> — nowa opcja w Ustawieniach → Dyktowanie: po wklejeniu podyktowanego tekstu aplikacja sama wciska Enter, więc wiadomość w czacie idzie od razu. Domyślnie wyłączone. Suwakiem ustawisz, ile sekund odczekać (1–5 s). Enter idzie tylko do tej aplikacji, w której wklejono tekst, więc przełączenie okna w międzyczasie nic nie zepsuje.</li>
+<li><b>Spacja po wklejeniu</b> — podyktowany tekst kończy się spacją, więc piszesz dalej bez ręcznego wciskania spacji.</li>
+<li><b>„Ponów transkrypcję” celuje w wybrane nagranie</b> — przycisk w wierszu ponawia dokładnie to nagranie, nie najnowsze.</li>
+<li><b>Drobne poprawki nagrywania spotkań</b> — dwa nagrania w tej samej minucie nie nadpisują się nawzajem, wyjście z aplikacji w trakcie transkrypcji zostawia nagranie do ponowienia, a nieudany import nie zostawia po sobie pustego wpisu.</li>
+</ul>
+<hr>
+<p><b>Pierwsza instalacja i macOS blokuje aplikację?</b> Aplikacja nie ma certyfikatu Apple — obejście: Ustawienia systemowe → Prywatność i ochrona → „Otwórz mimo to", albo w Terminalu: <code>xattr -d com.apple.quarantine /Applications/MyWhisper.app</code>. Szczegóły w INSTALACJA.md.</p>
+<p><b>Po aktualizacji pyta o hasło do pęku kluczy (klucz API)?</b> Kliknij <b>„Zawsze zezwalaj"</b> — pytanie nie wróci przy kolejnych aktualizacjach.</p>
+            ]]></description>
+            <enclosure url="https://github.com/obanach/mywhisper-releases/releases/download/v0.12/MyWhisper-0.12.zip" sparkle:edSignature="sCwCGfbHFDevOct+Va3oOmRxGCbTVoBOUQhRMSubz8eYsgX3vHag/1eaHrxpM+K+DJXsO1aZMHQVF0MEC4vQAQ==" length="6709536" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>MyWhisper 0.11</title>
             <pubDate>Tue, 22 Sep 2026 18:00:56 +0000</pubDate>
             <sparkle:version>26</sparkle:version>
